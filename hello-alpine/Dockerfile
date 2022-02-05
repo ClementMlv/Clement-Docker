@@ -1,4 +1,4 @@
-FROM alpine 3.15.0
+FROM alpine:3.15.0
 LABEL version="1.0.0" maintainer="Clement" os="linux" distro="alpine"
 ENV CONTAINER_USER="Clement_Mlv"
 RUN adduser $CONTAINER_USER --disable-password
